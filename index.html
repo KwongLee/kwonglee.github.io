@@ -22,43 +22,38 @@
 
 <body>
 
-
-<div class="bgimg w3-display-container w3-text-white">
-  <div class="w3-display-middle w3-jumbo">
-    <p>logo</p>
-  </div>
-  <div class="w3-display-topleft w3-container w3-xlarge">
-    <p><button onclick="document.getElementById('menu').style.display='block'" class="w3-button w3-black">menu</button></p>
-    <p><button onclick="document.getElementById('contact').style.display='block'" class="w3-button w3-black">contact</button></p>
-  </div>
-  <div class="w3-display-bottomleft w3-container">
-    <p class="w3-xlarge">monday - friday 10-23 | saturday 14-02</p>
-    <p class="w3-large">42 village St, New York</p>
-    <p>powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
-  </div>
-</div>
-
-<!-- Sliding Pages
+<!-- Sliding Pages -->
 <div class="wrapper">
   <nav>
     <a href="#page-1" class="scrollitem selected">page 1</a>
     <a href="#page-2" class="scrollitem">page 2</a>
     <a href="#page-3" class="scrollitem">page 3</a>
   </nav>
-  <div id="page-1" class="page">
-    <h3>page 1</h3>
-    <div class="simulate">Simulated content heigher than 100%</div>
+
+  <!-- Landing Page -->
+  <div id="page-1" class="page bgimg w3-display-container w3-text-white">
+      <div class="w3-display-middle w3-jumbo">
+        <p>logo</p>
+      </div>
+      <div class="w3-display-topleft w3-container w3-xlarge">
+        <p><button onclick="document.getElementById('menu').style.display='block'" class="w3-button w3-black">menu</button></p>
+        <p><button onclick="document.getElementById('contact').style.display='block'" class="w3-button w3-black">contact</button></p>
+      </div>
+      <div class="w3-display-bottomleft w3-container">
+        <p class="w3-xlarge">monday - friday 10-23 | saturday 14-02</p>
+        <p class="w3-large">42 village St, New York</p>
+        <p>powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+        <a href="#page-2" class="scrollitem">page 2</a>
+      </div>
   </div>
+
   <div id="page-2" class="page">
     <h3>page 2</h3>
-    <div class="simulate">Simulated content heigher than 100%</div>
   </div>
   <div id="page-3" class="page">
     <h3>page 3</h3>
-    <div class="simulate">Simulated content heigher than 100%</div>
   </div>
 </div>
--->
 
 <!-- Menu Modal -->
 <div id="menu" class="w3-modal">

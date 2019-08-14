@@ -12,10 +12,10 @@ body {
 
 /* Landing Page Image */
 .bgimg {
-  background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) ), url('./pics/IMG_1831.jpg');
+  background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url('./pics/IMG_1831.jpg') !important;
   min-height: 100%;
-  background-position: center;
-  background-size: cover;
+  background-position: center !important;
+  background-size: cover !important;
 }
 
 /* For Sliding Pages */
@@ -28,30 +28,16 @@ nav {
 
 .wrapper {
   height: 100%;
-  background: #263729;
 }
 
 .page {
   float: left;
-  background: #992213;
   min-height: 100%;
   padding-top: 30px;
 }
 
-#page-1 {
-  background: #0C717A;
-}
-
-#page-2 {
-  background: #009900;
-}
-
-#page-3 {
-  background: #0000FF;
-}
-
 a {
-  color: #FFF;
+  color: black;
 }
 
 a.selected {
