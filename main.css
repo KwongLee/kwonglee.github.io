@@ -1,4 +1,63 @@
 
 /* Body */
 body,h1,h5 {font-family: "Raleway", sans-serif}
-body, html {height: 100%}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  overflow-x: hidden;
+  position: relative;
+}
+
+/* Landing Page Image */
+.bgimg {
+  background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) ), url('./pics/IMG_1831.jpg');
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+/* For Sliding Pages */
+nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 30px;
+}
+
+.wrapper {
+  height: 100%;
+  background: #263729;
+}
+
+.page {
+  float: left;
+  background: #992213;
+  min-height: 100%;
+  padding-top: 30px;
+}
+
+#page-1 {
+  background: #0C717A;
+}
+
+#page-2 {
+  background: #009900;
+}
+
+#page-3 {
+  background: #0000FF;
+}
+
+a {
+  color: #FFF;
+}
+
+a.selected {
+  color: red;
+}
+
+.simulate {
+  height: 2000px;
+}
