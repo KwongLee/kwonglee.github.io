@@ -20,3 +20,27 @@ $(document).ready(function() {
     return false;
   });
 });
+
+/* Hide Nav Bar */
+function hideNav() {
+  document.getElementById("Nav").classList.add('w3-hide');
+}
+
+/* Unhide Nav Bar */
+function unhideNav() {
+  document.getElementById("Nav").classList.remove('w3-hide');
+}
+
+/* Typed JS */
+$(document).ready(function() {
+    var options = {
+        strings: ["Hi, I'm Kwong.^2000",
+         "Welcome.^2000",
+        ],
+        typeSpeed: 60,
+        backSpeed: 30,
+        smartBackspace: true,
+    }
+
+    var typed = new Typed("#typed", options);
+});
