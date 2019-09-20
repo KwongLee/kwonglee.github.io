@@ -14,6 +14,12 @@ p{
   font-size: 20px;
 }
 
+/* Disable Vertical Scroll */
+.noscroll{
+  overflow-y: hidden; // hide vertical
+  overflow-x: hidden; // hide horizontal
+}
+
 /* Landing Page Image */
 .bgimg {
   background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url('./pics/IMG_1831.jpg');

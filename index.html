@@ -21,7 +21,7 @@
 
 </head>
 
-<body>
+<body class="noscroll">
 
 <!-- Sliding Pages -->
 <div class="wrapper">
@@ -38,13 +38,13 @@
         <a href="#page-4" class="w3-button w3-block w3-black scrollitem">PHOTOGRAPHY</a>
       </div>
       <div class="w3-col s3">
-        <a href="#page-5" class="w3-button w3-block w3-black scrollitem">RESUME</a>
+        <a target="_blank" href="./Resume2019 (1).pdf" class="w3-button w3-block w3-black scrollitem">RESUME</a>
       </div>
     </div>
   </div>
 
   <!-- Landing Page -->
-  <div id="page-1" class="page bgimg w3-display-container w3-text-white" style="overflow-y:hidden !important;">
+  <div id="page-1" class="page bgimg w3-display-container w3-text-white">
       <div class="w3-container w3-display-middle w3-xxxlarge w3-center" style="max-width:100%">
         <span id="typed"></span>
         <br>
@@ -52,7 +52,7 @@
           <a href="#page-2" onclick="unhideNav()" class="w3-bar-item w3-button w3-black w3-margin scrollitem">About</a>
           <a href="#page-3" onclick="unhideNav()" class="w3-bar-item w3-button w3-black w3-margin scrollitem">Experience</a>
           <a href="#page-4" onclick="unhideNav()" class="w3-bar-item w3-button w3-black w3-margin scrollitem">Photo</a>
-          <a href="#page-5" onclick="unhideNav()" class="w3-bar-item w3-button w3-black w3-margin scrollitem">Resume</a>
+          <a target="_blank" href="./Resume2019 (1).pdf" onclick="unhideNav()" class="w3-bar-item w3-button w3-black w3-margin scrollitem">Resume</a>
         </div>
       </div>
   </div>
@@ -60,26 +60,26 @@
 
   <div id="page-2" class="page">
     <h5 class="w3-center w3-padding-48 w3-margin-top"><span class="w3-tag w3-wide">ABOUT ME</span></h5>
-    <div class="w3-container" id="where" style="padding-bottom:32px;">
+    <div class="w3-container" style="padding-bottom:32px;">
       <div class="w3-content" style="max-width:700px">
         <img src="./pics/me.jpg" class="w3-image center">
         <p style="padding-top:5%;"><span class="w3-tag">STATUS</span> I am currently studying <b>Electrical & Computer Engineering</b> at <b>Rutgers University-New Brunswick</b>.
           I will be graduating in <b>May 2020</b>.</p>
 
         <div class="w3-row centerIcons">
-          <div class="w3-col s6 w3-center">
-            <a href="#" class="fa fa-linkedin"></a>
+          <div title="LinkedIn" class="w3-col s6 w3-center">
+            <a target="_blank" href="https://www.linkedin.com/in/kwong-lee-041482125/" class="fa fa-linkedin"></a>
           </div>
-          <div class="w3-col s6 w3-center">
-            <a href="#" class="fa fa-github"></a>
+          <div title="Github" class="w3-col s6 w3-center">
+            <a target="_blank" href="https://github.com/KwongLee" class="fa fa-github"></a>
           </div>
         </div>
         <div class="w3-row centerIcons">
-          <div class="w3-col s6 w3-center">
-            <a href="#" class="fa fa-file-text-o"></a>
+          <div title="Resume" class="w3-col s6 w3-center">
+            <a target="_blank" href="./Resume2019 (1).pdf" class="fa fa-file-text-o"></a>
           </div>
-          <div class="w3-col s6 w3-center">
-            <a href="#" class="fa fa-envelope-o"></a>
+          <div title="Email" class="w3-col s6 w3-center">
+            <a href="mailto: kwonglee97@gmail.com" class="fa fa-envelope-o"></a>
           </div>
         </div>
 
@@ -92,15 +92,41 @@
     <h3>Experience</h3>
   </div>
 
+  <!-- Photo Section -->
   <div id="page-4" class="page">
-    <h3>Photography</h3>
-  </div>
+    <h5 class="w3-center w3-padding-48 w3-margin-top"><span class="w3-tag w3-wide">JAPAN</span></h5>
+    <div class="w3-container" style="padding-bottom:32px;">
+      <div class="w3-content" style="max-width:1600px">
+     <div class="w3-center w3-row w3-grayscale-min">
+       <div class="w3-quarter">
+         <img src="./pics/IMG_1842.jpg" style="width:100%" onclick="onClick(this)" >
+         <img src="./pics/IMG_1965.jpg" style="width:100%" onclick="onClick(this)" >
+         <img src="/w3images/girl.jpg" style="width:100%" onclick="onClick(this)" >
+      </div>
 
-  <div id="page-5" class="page">
-    <h3>Contact</h3>
+      <div class="w3-quarter">
+         <img src="./pics/IMG_1965.jpg" style="width:100%" onclick="onClick(this)" >
+         <img src="/w3images/man_bench.jpg" style="width:100%" onclick="onClick(this)" >
+         <img src="/w3images/natureboy.jpg" style="width:100%" onclick="onClick(this)">
+       </div>
+
+       <div class="w3-quarter">
+         <img src="/w3images/man_bench.jpg" style="width:100%" onclick="onClick(this)" alt="Waiting for the bus in the desert">
+         <img src="/w3images/girl_mountain.jpg" style="width:100%" onclick="onClick(this)" alt="What a beautiful scenery this sunset">
+         <img src="/w3images/closegirl.jpg" style="width:100%" onclick="onClick(this)" alt="The Beach. Me. Alone. Beautiful">
+       </div>
+
+       <div class="w3-quarter">
+         <img src="/w3images/natureboy.jpg" style="width:100%" onclick="onClick(this)" alt="A boy surrounded by beautiful nature">
+         <img src="/w3images/girl_train.jpg" style="width:100%" onclick="onClick(this)" alt="A girl, and a train passing">
+         <img src="/w3images/boy.jpg" style="width:100%" onclick="onClick(this)" alt="Quiet day at the beach. Cold, but beautiful">
+       </div>
+     </div>
+   </div>
+ </div>
+
   </div>
 
 </div>
-
 </body>
 </html>

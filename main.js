@@ -29,6 +29,7 @@ function hideNav() {
 /* Unhide Nav Bar */
 function unhideNav() {
   document.getElementById("Nav").classList.remove('w3-hide');
+  document.body.className = document.body.className.replace("noscroll","");
 }
 
 /* Typed JS */
