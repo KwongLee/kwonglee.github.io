@@ -41,7 +41,7 @@ function onClick(element) {
 /* Typed JS */
 $(document).ready(function() {
     var options = {
-        strings: ["Hi, I'm Kwong.^2000",
+        strings: ["Hi, I'm Kwong.^1000",
          "Welcome.^2000",
         ],
         typeSpeed: 60,
