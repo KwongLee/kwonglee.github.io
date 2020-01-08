@@ -32,6 +32,12 @@ function unhideNav() {
   document.body.className = document.body.className.replace("noscroll","");
 }
 
+/* Modal Image Gallery */
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+}
+
 /* Typed JS */
 $(document).ready(function() {
     var options = {

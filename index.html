@@ -95,34 +95,47 @@
 
   <!-- Photo Section -->
   <div id="page-4" class="page">
-    <h5 class="w3-center w3-padding-48 w3-margin-top"><span class="w3-tag w3-wide">JAPAN</span></h5>
-    <div class="w3-container" style="padding-bottom:32px;">
+
+    <h5 class="w3-center w3-padding-48" style="margin-top: 32px;"><span class="w3-tag w3-wide">JAPAN</span></h5>
+    <div style="padding-bottom:32px; padding-right: 5px; padding-left: 5px;">
       <div class="w3-content" style="max-width:1600px">
-     <div class="w3-center w3-row w3-grayscale-min">
+
+      <!-- Photo grid -->
+      <div class="w3-row grayscale">
+        <div class="w3-quarter">
+          <div class="thumbnail"><img src="./pics/IMG_redroad.jpg" style="width:100%" onclick="onClick(this)" ></div>
+          <div class="thumbnail"><img src="./pics/IMG_verticalnight2.jpg" style="width:100%" onclick="onClick(this)" ></div>
+          <div class="thumbnail"><img src="./pics/IMG_nightlife.jpg" style="width:100%" onclick="onClick(this)" ></div>
+       </div>
+
        <div class="w3-quarter">
-         <img src="./pics/IMG_1842.jpg" style="width:100%" onclick="onClick(this)" >
-         <img src="./pics/IMG_1965.jpg" style="width:100%" onclick="onClick(this)" >
-         <img src="/w3images/girl.jpg" style="width:100%" onclick="onClick(this)" >
+          <div class="thumbnail"><img src="./pics/IMG_whitecity.jpg" onclick="onClick(this)" ></div>
+          <div class="thumbnail"><img src="./pics/IMG_verticalnight.jpg" style="width:100%" onclick="onClick(this)" ></div>
+          <div class="thumbnail"><img src="./pics/IMG_streetnight.jpg" style="width:100%" onclick="onClick(this)" ></div>
+        </div>
+
+        <div class="w3-quarter">
+          <div class="thumbnail"><img src="./pics/IMG_cityroad.jpg" style="width:100%" onclick="onClick(this)" ></div>
+          <div class="thumbnail"><img src="./pics/IMG_nightroad.jpg" style="width:100%" onclick="onClick(this)" ></div>
+          <div class="thumbnail"><img src="./pics/IMG_parkstairs.jpg" style="width:100%" onclick="onClick(this)" ></div>
+        </div>
+
+        <div class="w3-quarter">
+          <div class="thumbnail"><img src="./pics/IMG_cityroad2.jpg" style="width:100%" onclick="onClick(this)" ></div>
+          <div class="thumbnail"><img src="./pics/IMG_landing.jpg" style="width:100%" onclick="onClick(this)" ></div>
+          <div class="thumbnail"><img src="./pics/IMG_pond.jpg" style="width:100%" onclick="onClick(this)" ></div>
+        </div>
       </div>
 
-      <div class="w3-quarter">
-         <img src="./pics/IMG_1965.jpg" style="width:100%" onclick="onClick(this)" >
-         <img src="/w3images/man_bench.jpg" style="width:100%" onclick="onClick(this)" >
-         <img src="/w3images/natureboy.jpg" style="width:100%" onclick="onClick(this)">
-       </div>
+      <!-- Modal for full size images on click-->
+      <div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
+        <span class="w3-button w3-black w3-xlarge w3-display-topright">×</span>
+        <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+          <img id="img01" class="full-image">
+          <p id="caption"></p>
+        </div>
+      </div>
 
-       <div class="w3-quarter">
-         <img src="/w3images/man_bench.jpg" style="width:100%" onclick="onClick(this)" alt="Waiting for the bus in the desert">
-         <img src="/w3images/girl_mountain.jpg" style="width:100%" onclick="onClick(this)" alt="What a beautiful scenery this sunset">
-         <img src="/w3images/closegirl.jpg" style="width:100%" onclick="onClick(this)" alt="The Beach. Me. Alone. Beautiful">
-       </div>
-
-       <div class="w3-quarter">
-         <img src="/w3images/natureboy.jpg" style="width:100%" onclick="onClick(this)" alt="A boy surrounded by beautiful nature">
-         <img src="/w3images/girl_train.jpg" style="width:100%" onclick="onClick(this)" alt="A girl, and a train passing">
-         <img src="/w3images/boy.jpg" style="width:100%" onclick="onClick(this)" alt="Quiet day at the beach. Cold, but beautiful">
-       </div>
-     </div>
    </div>
  </div>
 

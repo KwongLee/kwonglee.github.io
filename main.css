@@ -22,7 +22,7 @@ p{
 
 /* Landing Page Image */
 .bgimg {
-  background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url('./pics/IMG_1831.jpg');
+  background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url('./pics/IMG_landing.jpg');
   min-height: 100%;
   background-position: center !important;
   background-size: cover !important;
@@ -92,4 +92,26 @@ a.selected {
 /* Add a hover effect if you want */
 .fa:hover {
   opacity: 0.7;
+}
+
+/* Hover effect for photo gallery */
+.w3-quarter img{height:400px;width: 400px;padding: 5px; cursor: pointer}
+.w3-quarter img:hover{opacity: 0.6; transition: 0.3s}
+
+/* Image Thumbnail */
+.thumbnail {
+  margin: 0 auto;
+  max-height:400px;
+  max-width:400px;
+  overflow: hidden;
+}
+
+/* Full Size Image */
+.full-image{
+  max-width:100%;
+  max-height:85vh;
+}
+
+.grayscale{
+  filter:grayscale(20%);
 }
