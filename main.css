@@ -11,7 +11,18 @@ body {
 }
 
 p{
-  font-size: 20px;
+  font-size: 19px;
+}
+
+h3{
+  font-weight: bold;
+}
+
+h4{
+  margin:0;
+  font-weight: 100;
+  margin-top: -.6em;
+  font-size: 19px;
 }
 
 /* Disable Vertical Scroll */
@@ -78,6 +89,7 @@ a.selected {
 .centerIcons{
   width: 450px;
   margin: 0 auto;
+  max-width: 100%;
 }
 
 /* Style all font awesome icons */
@@ -114,4 +126,22 @@ a.selected {
 
 .grayscale{
   filter:grayscale(20%);
+}
+
+/* Experience Section */
+.expContainer{
+  position: relative;
+  overflow: hidden;
+}
+.expDiv{
+  height:100%;
+  position: absolute;
+  right:0;
+  top: 0;
+}
+
+.expImg{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
 }
