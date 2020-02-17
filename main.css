@@ -33,7 +33,7 @@ h4{
 
 /* Landing Page Image */
 .bgimg {
-  background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url('./pics/IMG_landing_resized.jpg');
+  background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url('./pics/IMG_landing.jpg');
   min-height: 100%;
   background-position: center !important;
   background-size: cover !important;
