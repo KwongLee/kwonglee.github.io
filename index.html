@@ -25,7 +25,6 @@ mybutton = document.getElementById("myBtn");
 window.onscroll = function() {scrollFunction()};
 function scrollFunction() {
   if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
-    console.log("hi")
     mybutton.style.display = "block";
   } else {
     mybutton.style.display = "none";
@@ -64,15 +63,15 @@ function topFunction() {
   </div>
 
   <!-- Landing Page -->
-  <div id="page-1" class="page bgimg w3-display-container w3-text-white">
+  <div id="page-1" class="page bgimg w3-display-container w3-text-white noscroll">
       <div class="w3-container w3-display-middle w3-xxxlarge w3-center" style="max-width:100%">
         <span id="typed"></span>
         <br>
-        <div class="w3-bar w3-large">
-          <a href="#page-2" onclick="unhideNav()" class="w3-bar-item w3-button w3-black w3-margin scrollitem">About</a>
-          <a href="#page-3" onclick="unhideNav()" class="w3-bar-item w3-button w3-black w3-margin scrollitem">Experience</a>
-          <a href="#page-4" onclick="unhideNav()" class="w3-bar-item w3-button w3-black w3-margin scrollitem">Photo</a>
-          <a target="_blank" href="./KwongLee_Resume2019.pdf" class="w3-bar-item w3-button w3-black w3-margin scrollitem">Resume</a>
+        <div id="landing_buttons" class="w3-bar w3-large">
+          <a href="#page-2" onclick="unhideNav()" class="w3-bar-item w3-button w3-black w3-margin scrollitem w3-round-large">About</a>
+          <a href="#page-3" onclick="unhideNav()" class="w3-bar-item w3-button w3-black w3-margin scrollitem w3-round-large">Experience</a>
+          <a href="#page-4" onclick="unhideNav()" class="w3-bar-item w3-button w3-black w3-margin scrollitem w3-round-large">Photo</a>
+          <a target="_blank" href="./KwongLee_Resume2019.pdf" class="w3-bar-item w3-button w3-black w3-margin scrollitem w3-round-large">Resume</a>
         </div>
       </div>
   </div>
@@ -83,8 +82,8 @@ function topFunction() {
     <div class="w3-container" style="padding-bottom:32px;">
       <div class="w3-content" style="max-width:700px">
         <img src="./pics/me.jpg" class="w3-image center">
-        <p style="padding-top:5%;"><span class="w3-tag">STATUS</span> I am currently studying <b>Electrical & Computer Engineering</b> at <b>Rutgers University-New Brunswick</b>.
-          I will be graduating in <b>May 2020</b>.</p>
+        <p style="padding-top:5%;"><span class="w3-tag">STATUS</span> Currently seeking entry level software position. Recent <b>Electrical & Computer Engineering</b> graduate at <b>Rutgers University-New Brunswick</b>.
+        </p>
 
         <div class="w3-row centerIcons">
           <div title="LinkedIn" class="w3-col s6 w3-center">

@@ -6,7 +6,6 @@ html,
 body {
   height: 100%;
   margin: 0;
-  overflow-x: hidden;
   position: relative;
 }
 
@@ -33,12 +32,36 @@ h4{
 
 /* Landing Page Image */
 .bgimg {
-  background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url('./pics/IMG_landing.jpg');
+  background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url('./pics/IMG_landing_resized.jpg');
   min-height: 100%;
   background-position: center !important;
   background-size: cover !important;
 }
 
+/* Landing Page Buttons */
+
+#landing_buttons{
+    opacity: 0;
+
+    animation: fadeIn 1.5s;
+    animation-delay: 4s;
+    animation-fill-mode: forwards;
+  }
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@media (max-width: 1000px) {
+
+#landing_buttons{
+  display:inline-grid;
+  width:auto;
+
+}
+
+}
 /* About me pic */
 .center {
   display: block;
