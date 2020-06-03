@@ -32,7 +32,7 @@ h4{
 
 /* Landing Page Image */
 .bgimg {
-  background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url('./pics/IMG_landing_resized.jpg');
+  background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url('./pics/IMG_landing_resized.jpg'),no-repeat -9999px -9999px;
   min-height: 100%;
   background-position: center !important;
   background-size: cover !important;
@@ -122,10 +122,10 @@ a.selected {
     -ms-transform: rotate(270deg);
     transform: rotate(270deg);
     position: fixed;
-    bottom: 50px;
-    right: 0;
+    bottom: 3%;
+    right: 3%;
     background-color: #DDD;
-    color: #555;
+    color: black;
     text-align: center;
     font-size: 30px;
     text-decoration: none;
